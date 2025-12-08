@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>我的履歷與作品集</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- 固定導覽，含錨點平滑捲動 -->
+  <header class="site-header" id="top">
+    <div class="container nav">
+      <div class="brand">
+        <img src="https://via.placeholder.com/40x40.png?text=👤" alt="示意頭像" class="brand-avatar" />
+        <span class="brand-name">你的名字</span>
+      </div>
+      <nav class="menu">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#timeline">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- 個人資訊區塊 -->
+    <section id="about" class="section fadein">
+      <div class="hero">
+        <img src="https://via.placeholder.com/160x160.png?text=Photo" alt="個人示意照片" class="avatar" />
+        <div class="intro">
+          <h1>你的名字</h1>
+          <p class="role">設計 / 前端 / 專案管理（可自行更改）</p>
+          <ul class="contacts">
+            <li><strong>Email：</strong><a href="mailto:you@example.com">you@example.com</a></li>
+            <li><strong>GitHub：</strong><a href="https://github.com/yourhandle" target="_blank" rel="noopener">github.com/yourhandle</a></li>
+            <li><strong>IG：</strong><a href="https://instagram.com/yourid" target="_blank" rel="noopener">@yourid</a></li>
+            <li><strong>Website：</strong><a href="https://your.site" target="_blank" rel="noopener">your.site</a></li>
+          </ul>
+          <p class="summary">我擅長將複雜需求化繁為簡，專注於使用者體驗、協作與落地成果。下面是我的技能、經歷與作品。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 技能展示區：進度條 -->
+    <section id="skills" class="section fadein">
+      <h2>技能 Skills</h2>
+      <div class="skills">
+        <div class="skill">
+          <div class="label"><strong>設計：</strong> 介面設計 / 版型規劃</div>
+          <div class="bar"><span style="width: 80%"></span></div>
+        </div>
+        <div class="skill">
+          <div class="label"><strong>前端開發：</strong> HTML / CSS / JS</div>
+          <div class="bar"><span style="width: 75%"></span></div>
+        </div>
+        <div class="skill">
+          <div class="label"><strong>溝通與協作：</strong> 需求釐清 / 跨部門協作</div>
+          <div class="bar"><span style="width: 90%"></span></div>
+        </div>
+        <div class="skill">
+          <div class="label"><strong>專案管理：</strong> 規劃 / 進度掌控</div>
+          <div class="bar"><span style="width: 70%"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 工作／經歷時間軸（至少 3 項，含國中、高中、大一等時期） -->
+    <section id="timeline" class="section fadein">
+      <h2>經歷時間軸 Experience</h2>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>國中｜科技展專題</h3>
+            <p class="tl-time">2015</p>
+            <p class="tl-desc">以簡易感測器做環境監測小專題，負責資料記錄與展示面板設計。</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>高中｜社團美宣</h3>
+            <p class="tl-time">2017–2019</p>
+            <p class="tl-desc">擔任美宣長，主導活動視覺、海報與社群素材產出。</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>大一｜程式設計課專題</h3>
+            <p class="tl-time">2020</p>
+            <p class="tl-desc">與三人小組合作開發待辦清單 Web App，我負責前端介面與互動設計。</p>
+          </div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-content">
+            <h3>實習｜新創團隊前端</h3>
+            <p class="tl-time">2022–2023</p>
+            <p class="tl-desc">參與核心產品頁面重構與效能優化，導入元件化與設計系統。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 專案作品集展示：卡片式（3 件以上），可加圖片或連結 -->
+    <section id="projects" class="section fadein">
+      <h2>專案作品集 Projects</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="https://via.placeholder.com/640x360.png?text=Project+1" alt="作品示意圖 1" />
+          <div class="card-body">
+            <h3>作品一｜校園活動網站</h3>
+            <p class="card-desc">為社團活動打造資訊網站，整合報名、時程與視覺素材。</p>
+            <ul class="meta">
+              <li><strong>角色分工：</strong> 視覺設計、前端切版</li>
+              <li><strong>連結：</strong> <a href="https://example.com/project1" target="_blank" rel="noopener">example.com/project1</a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://via.placeholder.com/640x360.png?text=Project+2" alt="作品示意圖 2" />
+          <div class="card-body">
+            <h3>作品二｜待辦清單 App</h3>
+            <p class="card-desc">課程小組專題，支援標籤、截止日與簡易統計。</p>
+            <ul class="meta">
+              <li><strong>角色分工：</strong> 前端互動、使用者流程</li>
+              <li><strong>連結：</strong> <a href="https://example.com/project2" target="_blank" rel="noopener">example.com/project2</a></li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://via.placeholder.com/640x360.png?text=Project+3" alt="作品示意圖 3" />
+          <div class="card-body">
+            <h3>作品三｜資料視覺化 Dashboard</h3>
+            <p class="card-desc">以圖表呈現營運指標，優化可讀性與互動提示。</p>
+            <ul class="meta">
+              <li><strong>角色分工：</strong> 視覺規劃、元件拆分</li>
+              <li><strong>連結：</strong> <a href="https://example.com/project3" target="_blank" rel="noopener">example.com/project3</a></li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <!-- 可自行增加圖片的作品圖庫（LocalStorage） -->
+      <div class="gallery-header">
+        <h3>作品圖片庫（可上傳）</h3>
+        <div class="actions">
+          <label class="upload-btn">
+            上傳圖片
+            <input id="file-input" type="file" accept="image/*" multiple hidden />
+          </label>
+          <button id="clear-gallery" class="danger">清除全部</button>
+        </div>
+      </div>
+      <div id="dropzone" class="dropzone">拖曳圖片到這裡或點「上傳圖片」</div>
+      <div id="gallery" class="gallery" aria-live="polite"></div>
+      <p class="hint">提示：拖曳卡片可排序；點垃圾桶刪除；只在本機瀏覽器保存。</p>
+    </section>
+
+    <!-- 聯絡（Email 必填） -->
+    <section id="contact" class="section fadein">
+      <h2>聯絡 Contact</h2>
+      <div class="contact-card">
+        <p><strong>Email：</strong><a href="mailto:you@example.com">you@example.com</a></p>
+        <p><strong>Threads：</strong><a href="https://www.threads.net/@yourid" target="_blank" rel="noopener">@yourid</a></p>
+        <p><strong>個人網站：</strong><a href="https://your.site" target="_blank" rel="noopener">your.site</a></p>
+      </div>
+      <a href="#top" class="back-top">回到頂部 ↑</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© 2025 你的名字 — 本頁面僅保存於你的瀏覽器</small>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
